@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Shantell+Sans:ital@1&family=Source+Serif+Pro:ital,wght@1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@1,300&family=Open+Sans:ital,wght@1,300&family=Shantell+Sans:ital@1&family=Source+Serif+Pro:ital,wght@1,400;1,600&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@1,300&family=Open+Sans:ital,wght@1,300&family=Shantell+Sans:ital@1&family=Source+Serif+Pro:ital,wght@1,400;1,600&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@1,300&family=Open+Sans:ital,wght@1,300&family=Shantell+Sans:ital@1&family=Source+Serif+Pro:ital,wght@1,400;1,600&family=Tilt+Prism&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: white;
+}
+
+
+.p{
+    background-color: plum;
+    width: 14vw;
+    font-family: 'Labrada', serif;
+    font-size: 25px;
+    color:rgb(52, 91, 201);
+}
+
+.p a{
+    text-decoration: none;
+}
+
+.sidebar{
+    background-color: plum;
+    width: 14vw;
+    font-family: 'Shantell Sans', cursive;
+    height: 130vh;
+}
+
+
+.sidebar nav{
+    padding: 47px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding-top: 33px;
+}
+
+
+
+.main{
+    background-color:white;
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+   
+    height: 60vh;
+    width: 80vw;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    column-gap: 80px;
+    margin-top: 60px;
+}
+
+.h2{
+    height: 3px;
+    width: 10px;
+    margin-left: 25px;
+    margin-top: -15px;
+}
+
+.pi img{
+height: vh;
+width: 400px;
+
+}
+
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 60px;
+    font-family: 'Source Serif Pro', serif;
+
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Source Serif Pro', serif;
+
+}
+
+.about{ 
+    font-size: 22px;
+    font-family: 'Source Serif Pro', serif;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+
+.moreabout{
+    font-size: 26px;
+    font-family: 'Source Serif Pro', serif;
+    margin-top: 3px;
+}
+
+.moreabout1{
+    font-size: 20px;
+    font-family: 'Source Serif Pro', serif;
+    margin-top: 3px;
+}
+.buttons{
+    margin-top: 30px;
+}
+
+.btn{
+    padding: 10px 26px;
+    border-radius: 23px;
+    color: white;
+    background-color: mediumslateblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 7px;
+    cursor: pointer;
+
+}
+
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(17, 45, 201);
+    font-size: 30px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: mediumslateblue;
+
+}
+
+.btn-sm{
+    font-size: 10px;
+    margin: 6px;
+}
+
+
+.fa {
+    padding: 10px;
+    size: 550px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-instagram {
+    background:white;
+    color: palevioletred;
+    border-radius: 100%;
+    border: 40px;
+    
+  }
+  
+  /* Twitter */
+  .fa-linkedin {
+    background:white ;
+    color: #55ACEE;
+    border-radius: 100%;
+  }
+
+
+.devpic img{
+    height: 55vh;
+    
+}
+
+
+.contactform{
+    padding: 0 25px;
+    padding-top: 0px;
+    font-family: 'Source Serif Pro', serif;
+    
+}
+
+
+.contactform h1{
+    font-family: 'Tilt Prism', cursive;
+    text-align: left;
+    padding: 5px 0;
+
+}
+
+
+.contactform form div{
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius: 7px;
+    font-size: 17px;
+    margin: 10px 0 0 0;
+    padding: 2px 0;
+}
+
+#form-check {
+    flex-direction:row;
+
+}
+
+#form-check input{
+    width: 12px; 
+    margin: 4px;
+}
+
+
+#emailHelp{
+    font-size: 14px;
+    color: orangered;
+    margin: 0px 11px;
+}
+
+.blogitem{
+    margin: 20px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+h1{
+    font-family: 'Tilt Prism', cursive;
+    margin: 21px;
+}
+
+p{
+    font-family: 'Source Serif Pro', serif;
+}
+
+
+.intro{
+
+    padding:0 25px;
+}
+.intro h2{
+    font-family: 'Tilt Prism', cursive;
+    margin: 20px;
+}
+
+.blog h2{
+    font-family: 'Tilt Prism', cursive;
+    margin: 20px;
+}
+
+
+.intro p{
+    font-family: 'Source Serif Pro', serif;
+    margin: 20px;
+}
+
+
+.skillcontainer{
+    padding: 8px;
+    padding-left: 20px;
+    font-family: 'Tilt Prism', cursive;
+    font-weight: 600;
+
+}
+
+.skillitem{
+    display: flex;
+    align-items: center;
+    
+   
+}
+
+.skill{
+    width: 35px;
+    height: 6px;
+    background-color: blueviolet;
+    border: 2px solid paleturquoise;
+}
+
+.H{
+ width: 250px;
+ background-color: yellowgreen;
+}
+
+.f{
+    width:200px;
+    background-color: green;    
+}
+
+.t5{
+    width: 120px;
+    background-color: blue;
+}
+
+@media (max-width:12450px){
+    
+
+}
+
+.e{
+    margin: 25px;
+}
+.e1{
+    margin-left: 11px;
+    font-size: 18px;
+}
+
+
+.propic{
+    width: 10px;
+    height: 5px;
+}
+
+.h2{
+    font-family: 'Labrada', serif;
+    font-size: 27px;
+}
+
+
+
+.sidebar1{
+    background-color: plum;
+    width: 14vw;
+    font-family: 'Shantell Sans', cursive;
+    height: 150vh;
+    
+}
+
+
+.sidebar1 nav{
+    padding: 47px;
+}
+.sidebar1 nav li{
+    list-style: none;
+    padding-top: 33px;
+}
+
+.sidebar1 nav li a{
+    text-decoration: none;
+    color: rgb(17, 45, 201);
+    font-size: 30px;
+}
